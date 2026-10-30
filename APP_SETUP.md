@@ -65,7 +65,7 @@ Questions are serialized within one server process to protect the notebook's sha
 ## Tests
 
 ```bash
-python -m unittest checks.test_app -v
+python -m unittest tests.test_integration -v
 ```
 
 Tests use real local startup/data and stub paid answer calls. They do not establish live API access or answer quality.
@@ -84,6 +84,6 @@ This can incur embedding API charges for missing records. Normal app startup doe
 
 ## Retained notebook and evaluation evidence
 
-The current notebook is `project2_UTAIGA_Project_2_Full_Code_Notebook_cleaned.ipynb`. Its optional historical before/after comparison skips when deleted backup inputs are absent. Notebook reruns may recreate their own indexes and experiment outputs and incur API costs. The notebook's executable code changed only to make that historical comparison optional; old code-lock hashes must not be treated as validation of this edited version.
+The current notebook is `notebooks/project2_UTAIGA_Project_2_Full_Code_Notebook_cleaned.ipynb`. Its optional historical before/after comparison skips when deleted backup inputs are absent. Notebook reruns may recreate their own indexes and experiment outputs and incur API costs. The notebook's executable code changed only to make that historical comparison optional; old code-lock hashes must not be treated as validation of this edited version.
 
 The UI's recorded evaluation scores retain compact source reports in `backend/artifacts/evaluation`. Full historical outputs, old review scripts and notebook backups were removed. These recorded scores are not new tests of the current app.

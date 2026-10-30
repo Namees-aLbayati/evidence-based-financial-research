@@ -14,3 +14,9 @@ frontend/node_modules/
 .ipynb_checkpoints/
 *.log
 !.env.example
+
+# Generated notebook runs
+rubric_results/
+section3_results/
+section4_results/
+.pytest_cache/

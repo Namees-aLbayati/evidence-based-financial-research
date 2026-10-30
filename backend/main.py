@@ -42,8 +42,9 @@ class AnswerResponse(BaseModel):
 @asynccontextmanager
 async def lifespan(app):
     # Import once at startup; no notebook execution or paid API calls here.
-    from backend.pipeline import final_inference
-    app.state.answer_question = final_inference
+    if not hasattr(app.state, "answer_question"):
+        from backend.pipeline import final_inference
+        app.state.answer_question = final_inference
     yield
 
 
