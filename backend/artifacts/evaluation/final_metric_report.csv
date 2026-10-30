@@ -1,0 +1,5 @@
+metric,mean_score,pass_rate
+Actionability,0.7971488783444756,1.0
+Faithfulness,0.7429942565205626,0.6
+Groundedness,0.6405353709732029,0.4
+Relevance,0.6237614724259328,0.2

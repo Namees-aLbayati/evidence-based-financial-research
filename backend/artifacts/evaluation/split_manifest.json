@@ -1,0 +1,28 @@
+{
+  "optimization": [
+    "gold_00",
+    "gold_17",
+    "gold_15"
+  ],
+  "development": [
+    "gold_01",
+    "gold_08",
+    "gold_05"
+  ],
+  "regression": [
+    "gold_16",
+    "gold_13",
+    "gold_02"
+  ],
+  "fresh_holdout": [
+    "gold_06",
+    "gold_12",
+    "gold_04"
+  ],
+  "additional_prior_exposure": [
+    "gold_03",
+    "gold_11",
+    "gold_18"
+  ],
+  "seed": 42
+}

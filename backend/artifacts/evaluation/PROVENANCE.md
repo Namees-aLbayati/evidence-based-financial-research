@@ -1,0 +1,1 @@
+These reports were copied from rubric_results/final_cleaned_review_fixes_v1 before research-history cleanup. They describe the prior notebook run, not a new evaluation of the application. The held-out cases were previously inspected. Full historical experiment outputs have been removed.

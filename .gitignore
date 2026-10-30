@@ -1,0 +1,16 @@
+.env
+.env.*
+.venv/
+
+chroma_db/
+.app_cache/
+__pycache__/
+.app_chroma/
+frontend/node_modules/
+
+# Local system and generated research files
+.DS_Store
+.deepeval/
+.ipynb_checkpoints/
+*.log
+!.env.example

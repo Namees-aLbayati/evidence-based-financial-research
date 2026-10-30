@@ -1,0 +1,39 @@
+{
+  "required": [
+    {
+      "metric": "Actionability",
+      "score": 0.7971488783444756
+    },
+    {
+      "metric": "Faithfulness",
+      "score": 0.7429942565205626
+    },
+    {
+      "metric": "Groundedness",
+      "score": 0.6405353709732029
+    },
+    {
+      "metric": "Relevance",
+      "score": 0.6237614724259328
+    }
+  ],
+  "held_out": [
+    {
+      "metric": "Actionability",
+      "score": 0.6635809053774643
+    },
+    {
+      "metric": "Faithfulness",
+      "score": 0.7443451631735999
+    },
+    {
+      "metric": "Groundedness",
+      "score": 0.6117312701571567
+    },
+    {
+      "metric": "Relevance",
+      "score": 0.47520360769056635
+    }
+  ],
+  "source": "backend/artifacts/evaluation (prior notebook run)"
+}
