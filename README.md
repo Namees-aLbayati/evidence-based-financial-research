@@ -92,37 +92,45 @@ The response includes:
 
 ## 6. App screenshots
 
-Capture the running application and save the images in `docs/screenshots/`. Follow the [screenshot guide](docs/SCREENSHOT_GUIDE.md) for filenames and upload steps.
+Screenshots from a local run of the React app and FastAPI backend.
 
 ### Research workspace
 
-Shows the app workflow, RAG explanation, and question input.
+The homepage introduces the RAG workflow: set a question, retrieve evidence, generate and check, then review the report.
 
-<!-- After adding docs/screenshots/homepage.png, uncomment this line:
 ![Research workspace with RAG workflow](docs/screenshots/homepage.png)
--->
 
-*Homepage screenshot pending.*
+### Question input
+
+Users can write a question or select an example, then generate a research report.
+
+![Question input and report generation](docs/screenshots/question-input.png)
 
 ### Answer and analysis
 
-Shows the released answer, supported calculations, sources, and limitations.
+The Amazon example shows a partial-answer status, historical price calculations, reporting dates, and a cited news-sentiment finding.
 
-<!-- After adding docs/screenshots/answer-analysis.png, uncomment this line:
-![Research answer with calculations, analysis, and sources](docs/screenshots/answer-analysis.png)
--->
+![Research report overview and historical price calculation](docs/screenshots/answer-analysis.png)
 
-*Answer screenshot pending.*
+### Sources and limitations
+
+The report separates source-supported observations from uncertainty and provides the retrieved source records for review.
+
+![Detailed analysis, limitations, and source records](docs/screenshots/sources-and-limitations.png)
 
 ### Evaluation
 
-Shows the expanded evaluation section and recorded notebook scores.
+The expanded section explains answer checks and displays prior notebook evaluation scores. These are model-judge estimates, not accuracy percentages or live confidence scores.
 
-<!-- After adding docs/screenshots/evaluation.png, uncomment this line:
 ![Evaluation criteria and recorded notebook results](docs/screenshots/evaluation.png)
--->
 
-*Evaluation screenshot pending.*
+### FastAPI documentation
+
+Interactive API documentation exposes the health and question endpoints for development and testing. This screenshot shows the documented endpoints, rather than an executed health response.
+
+![FastAPI interactive endpoint documentation](docs/screenshots/api-docs.png)
+
+For updating these images, see the [screenshot guide](docs/SCREENSHOT_GUIDE.md).
 
 ## 7. Connect your app
 

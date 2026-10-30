@@ -23,15 +23,9 @@ Save the images in `docs/screenshots/`. Use the exact filenames above, or update
 
 ## Display the images
 
-In `README.md`, find **6. App screenshots**. Each image line is currently commented out to avoid a broken image before you add a screenshot.
+The README now embeds the supplied screenshots with relative image paths. Replace an image using its existing filename to update the preview without editing the README. Additional screenshots include `api-docs.png`, `question-input.png`, and `sources-and-limitations.png`.
 
-For each image you add, remove its surrounding HTML comment. For example:
-
-```markdown
-![Research workspace with RAG workflow](docs/screenshots/homepage.png)
-```
-
-Delete the corresponding “screenshot pending” sentence. Preview the README in VS Code with **Shift + Command + V**.
+Preview the README in VS Code with **Shift + Command + V**.
 
 ## Upload your changes
 
