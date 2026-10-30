@@ -1,4 +1,4 @@
-# Financial Research Assistant
+# Evidence-Based Financial Research
 
 A Python backend that uses the financial notebook's retrieval, calculations, and answer-validation logic through a FastAPI API. Ask questions about the supplied historical news, prices, and filings, and receive an answer with sources and limitations.
 
@@ -90,23 +90,39 @@ The response includes:
 
 `partial` is a valid result: the data supports only part of the question. Valid citation labels do not guarantee factual accuracy. Dates and calculations refer to the supplied historical dataset, not live market prices.
 
-## 6. Add your screenshot
+## 6. App screenshots
 
-After running a question, capture the **POST /ask request and response**. Save the image in:
+Capture the running application and save the images in `docs/screenshots/`. Follow the [screenshot guide](docs/SCREENSHOT_GUIDE.md) for filenames and upload steps.
 
-```text
-docs/screenshots/first-api-response.png
-```
+### Research workspace
 
-Then remove the HTML comment markers around the image line below to display it in this README. If you use another filename, update the image path to match it.
+Shows the app workflow, RAG explanation, and question input.
 
-<!-- Uncomment after saving your screenshot:
-![First question and API response](docs/screenshots/first-api-response.png)
+<!-- After adding docs/screenshots/homepage.png, uncomment this line:
+![Research workspace with RAG workflow](docs/screenshots/homepage.png)
 -->
 
-*Screenshot pending: add your actual run here.*
+*Homepage screenshot pending.*
 
-You can also send the screenshot in this chat and ask me to add it to the README.
+### Answer and analysis
+
+Shows the released answer, supported calculations, sources, and limitations.
+
+<!-- After adding docs/screenshots/answer-analysis.png, uncomment this line:
+![Research answer with calculations, analysis, and sources](docs/screenshots/answer-analysis.png)
+-->
+
+*Answer screenshot pending.*
+
+### Evaluation
+
+Shows the expanded evaluation section and recorded notebook scores.
+
+<!-- After adding docs/screenshots/evaluation.png, uncomment this line:
+![Evaluation criteria and recorded notebook results](docs/screenshots/evaluation.png)
+-->
+
+*Evaluation screenshot pending.*
 
 ## 7. Connect your app
 
